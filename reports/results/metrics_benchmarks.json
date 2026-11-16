@@ -1,0 +1,50 @@
+[
+  {
+    "sequence_recovery": 8.45,
+    "perplexity": 18.76,
+    "blosum62_score": -1.156,
+    "recovery_helix": 9.85,
+    "recovery_sheet": 8.33,
+    "recovery_loop": 3.62,
+    "recovery_core": 12.47,
+    "recovery_boundary": 7.19,
+    "recovery_surface": 4.23,
+    "recovery_mainly_alpha": 10.33,
+    "recovery_mainly_beta": 7.33,
+    "recovery_alpha_beta": 8.19,
+    "recovery_few_secondary_structures": 5.13,
+    "model": "FrequencyBaseline"
+  },
+  {
+    "sequence_recovery": 10.27,
+    "perplexity": 18.22,
+    "blosum62_score": -0.686,
+    "recovery_helix": 10.64,
+    "recovery_sheet": 9.03,
+    "recovery_loop": 12.78,
+    "recovery_core": 9.95,
+    "recovery_boundary": 8.91,
+    "recovery_surface": 13.12,
+    "recovery_mainly_alpha": 12.92,
+    "recovery_mainly_beta": 9.14,
+    "recovery_alpha_beta": 9.47,
+    "recovery_few_secondary_structures": 12.98,
+    "model": "SequenceTransformer"
+  },
+  {
+    "sequence_recovery": 30.7,
+    "perplexity": 10.84,
+    "blosum62_score": 1.258,
+    "recovery_helix": 26.81,
+    "recovery_sheet": 30.17,
+    "recovery_loop": 46.7,
+    "recovery_core": 31.66,
+    "recovery_boundary": 28.36,
+    "recovery_surface": 33.2,
+    "recovery_mainly_alpha": 27.6,
+    "recovery_mainly_beta": 30.86,
+    "recovery_alpha_beta": 31.46,
+    "recovery_few_secondary_structures": 34.05,
+    "model": "ProteinMPNN"
+  }
+]

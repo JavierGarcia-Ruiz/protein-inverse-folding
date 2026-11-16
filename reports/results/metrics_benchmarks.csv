@@ -1,0 +1,4 @@
+model,sequence_recovery,perplexity,blosum62_score,recovery_helix,recovery_sheet,recovery_loop,recovery_core,recovery_boundary,recovery_surface
+FrequencyBaseline,8.45,18.76,-1.156,9.85,8.33,3.62,12.47,7.19,4.23
+SequenceTransformer,10.27,18.22,-0.686,10.64,9.03,12.78,9.95,8.91,13.12
+ProteinMPNN,30.7,10.84,1.258,26.81,30.17,46.7,31.66,28.36,33.2

@@ -1,0 +1,39 @@
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  dataset_name: "cath_4_2_benchmark"
+  n_domains: 2200
+  max_len: 256
+  num_neighbors: 30
+  split_seed: 42
+  train_ratio: 0.75
+  val_ratio: 0.125
+  test_ratio: 0.125
+
+model:
+  node_dim: 128
+  edge_dim: 64
+  num_encoder_layers: 3
+  num_decoder_layers: 3
+  dropout: 0.1
+  num_rbf: 16
+  max_radius: 20.0
+  vocab_size: 21  # 20 standard amino acids + 1 unknown/pad
+
+training:
+  batch_size: 16
+  epochs: 15
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  label_smoothing: 0.1
+  amp: true
+  seed: 42
+  device: "cuda"
+
+paths:
+  models_dir: "models"
+  logs_dir: "logs"
+  reports_dir: "reports"
+  figures_dir: "reports/figures"
+  results_dir: "reports/results"
+
